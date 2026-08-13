@@ -10,14 +10,14 @@
 #               to terminate the data.
 #
 
-    .section data
+    .section .data
 
 data_items:                     # these are the data items
     # as we have 14 longs with 4 bytes each
     # the list takes 56 bytes
     .long 3,67,34,222,45,75,54,34,44,33,22,11,66,0 
 
-    .section text
+    .section .text
     .globl _start
 
 _start:
