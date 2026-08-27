@@ -29,7 +29,7 @@ _start:
     int $0x80
 
 #This is the actual function definition
-.type factorial.@function
+.type factorial,@function
 factorial:
     pushl   %ebp            #standard function stuff - we have to 
                             #restore %ebp to its prior state before
