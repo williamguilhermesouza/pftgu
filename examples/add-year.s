@@ -37,7 +37,7 @@ _start:
     #condition that the negative number 
     #represents.
     cmpl    $0, %eax 
-    jl      continue_processing 
+    jge     continue_processing 
 
     #Send the error 
     .section .data
