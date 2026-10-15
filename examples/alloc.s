@@ -71,7 +71,7 @@ allocate_init:
     movl    $0, %ebx 
     int     $LINUX_SYSCALL
 
-    incl    %eax                #%eax now has he last valid
+    incl    %eax                #%eax now has the last valid
                                 #address, and we want the 
                                 #memory location after that 
 
